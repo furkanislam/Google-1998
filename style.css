@@ -1,0 +1,62 @@
+#google{
+    background: url("google.jpg");
+    width:351px;
+    height: 113px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top:60px;   
+}
+main div{
+    display:block;
+}
+
+.container-div{
+    margin: 5px 100px 2px;
+    text-align:center;
+    background-color: #EEEEEE;
+    height: 67px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 17fr 9fr 20fr;
+    grid-template-rows: 75px;
+    gap: 2px;
+    margin: 0px 100px;
+}
+
+.plan1{
+    background-color:#7EE5DA;
+    text-align: center;
+}
+
+.plan1-1{
+    margin-top: 10px;
+}
+
+
+.plan2{
+    background-color:#70CCC2;
+    font-size: 0.768rem;
+    text-align: center;
+}
+
+.plan2-2{
+    margin-top: 6px;
+}
+
+.plan3{
+    background-color:#62B3AA;
+    font-size: 0.768rem;
+    text-align: center;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
